@@ -31,3 +31,92 @@ h1{
 	color: #fff;
 	font-size: 20px;
 }
+
+.first-row{
+	margin: 0;
+	overflow: hidden;
+}
+
+.fr-one, .fr-two, .fr-three{
+	width: 33.333333%;
+	height: 150px;
+	padding-top: 60px;
+	float: left;
+	text-align: center;
+	box-sizing: border-box;
+	border: 1px dashed #aaa;
+}
+
+.fr-one{
+	background: #f1cb08;
+	color: #fff;
+}
+
+.fr-two{
+	background: #222;
+	color: #aaa;
+}
+
+.fr-two:hover{
+	background: url('../img/tomi.jpeg') no-repeat 0 0;
+}
+
+.fr-two:hover h3{
+	display: none;
+}
+
+.fr-three{
+	background: #222;
+	color: #aaa;
+}
+
+.fr-three:hover{
+	background: url('../img/barto.jpeg') no-repeat 0 0;
+}
+
+.fr-three:hover h3{
+	display: none;
+}
+
+.team-list li{
+	border: 1px dashed #aaa;
+	width: 33.333333%;
+	float: left;
+	padding-top: 100px;
+	height: 220px;
+	text-align: center;
+	box-sizing: border-box;
+	background: #222;
+}
+
+.team-list li:hover span{
+	display: none;
+}
+
+.team-list li span{
+	color: #aaa;	
+}
+
+.tl-one:hover{
+	background: url('../img/nata.jpeg') no-repeat 0 0;
+}
+
+.tl-two:hover{
+	background: url('../img/marianold.jpeg') no-repeat 0 0;
+}
+
+.tl-three:hover{
+	background: url('../img/mariannew.png') no-repeat 0 0;
+}
+
+.tl-four:hover{
+	background: url('../img/julian.jpeg') no-repeat 0 0;
+}
+
+.tl-five:hover{
+	background: url('../img/fran.jpeg') no-repeat 0 0;
+}
+
+.tl-six:hover{
+	background: url('../img/rodri.jpeg') no-repeat 0 0;
+}
