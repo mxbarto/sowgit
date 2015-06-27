@@ -120,3 +120,14 @@ h1{
 .tl-six:hover{
 	background: url('../img/rodri.jpeg') no-repeat 0 0;
 }
+
+.footer{
+	width: 100%;
+	float: left;
+	background: #222;
+	color: #fff;
+	font-size: 11px;
+	text-align: center;
+	height: 42px;
+	box-sizing: border-box;
+}
