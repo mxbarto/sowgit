@@ -37,88 +37,176 @@ h1{
 	overflow: hidden;
 }
 
-.fr-one, .fr-two, .fr-three{
+.first-row div{
 	width: 33.333333%;
 	height: 150px;
 	padding-top: 60px;
 	float: left;
 	text-align: center;
 	box-sizing: border-box;
-	border: 1px dashed #aaa;
+	border: 1px solid #aaa;
+	transition: .2s;
 }
 
+.first-row h3, .first-row h2{
+	transition: .2s;
+}
+
+
+/* SOW Team */
 .fr-one{
-	background: #f1cb08;
+	background: #f1cb08 url('../img/sowteam.jpg') no-repeat 0 -150px;
 	color: #fff;
 }
 
+.fr-one:hover{
+	background-position: 0 0;
+}
+
+.fr-one:hover h2{
+	color: #000;
+	font-weight: 700;
+	margin-left: 260px;
+}
+
+
+
+/* Tomi */
 .fr-two{
-	background: #222;
+	background: #222 url('../img/tomi.jpeg') no-repeat 0 -150px;
 	color: #aaa;
 }
 
 .fr-two:hover{
-	background: url('../img/tomi.jpeg') no-repeat 0 0;
+	background-position: 0 0;
 }
 
 .fr-two:hover h3{
-	display: none;
+	color: #000;
+	font-weight: 700;
+	margin-left: -180px;
 }
 
+
+/* Barto */
 .fr-three{
-	background: #222;
+	background: #222 url('../img/barto.jpeg') no-repeat 0 -150px;
 	color: #aaa;
 }
 
 .fr-three:hover{
-	background: url('../img/barto.jpeg') no-repeat 0 0;
+	background-position: 0 0;
 }
 
 .fr-three:hover h3{
-	display: none;
+	color: #000;
+	font-weight: 700;
+	margin-left: 100px;
 }
 
 .team-list li{
-	border: 1px dashed #aaa;
+	border: 1px solid #aaa;
 	width: 33.333333%;
 	float: left;
 	padding-top: 100px;
 	height: 220px;
 	text-align: center;
 	box-sizing: border-box;
-	background: #222;
+	transition: .2s;
+}
+
+
+.team-list li span{
+	color: #aaa;
+	transition: .2s;
 }
 
 .team-list li:hover span{
-	display: none;
+	font-weight: 700;
+	color: #000;
 }
 
-.team-list li span{
-	color: #aaa;	
+/* Natacha */
+.tl-one{
+	background: #222 url('../img/nata.jpeg') no-repeat 0 -220px;
 }
 
 .tl-one:hover{
-	background: url('../img/nata.jpeg') no-repeat 0 0;
+	background-position: 0 0;
+}
+
+.tl-one:hover span{
+	margin-left: 180px;
+}
+
+
+/* Mariano old */
+.tl-two{
+	background: #222 url('../img/marianold.jpeg') no-repeat 0 -220px;
 }
 
 .tl-two:hover{
-	background: url('../img/marianold.jpeg') no-repeat 0 0;
+	background-position: 0 0;
+}
+
+.tl-two:hover span{
+	margin-left: -250px;
+}
+
+
+/* Mariano new */
+.tl-three{
+	background: #222 url('../img/mariannew.png') no-repeat 0 -220px;
 }
 
 .tl-three:hover{
-	background: url('../img/mariannew.png') no-repeat 0 0;
+	background-position: 0 0;
+}
+
+.tl-three:hover span{
+	margin-left: -280px;
+}
+
+
+/* Julian */
+.tl-four{
+	background: #222 url('../img/julian.jpeg') no-repeat 0 -220px;
 }
 
 .tl-four:hover{
-	background: url('../img/julian.jpeg') no-repeat 0 0;
+	background-position: 0 0;
+}
+
+.tl-four:hover span{
+	margin-left: 260px;
+}
+
+
+/* Fran */
+.tl-five{
+	background: #222 url('../img/fran.jpeg') no-repeat 0 -220px;
 }
 
 .tl-five:hover{
-	background: url('../img/fran.jpeg') no-repeat 0 0;
+	background-position: 0 0;
+}
+
+.tl-five:hover span{
+	margin-left: -180px;
+}
+
+
+/* Rodri */
+.tl-six{
+	background: #222 url('../img/rodri.jpeg') no-repeat 0 -220px;
 }
 
 .tl-six:hover{
-	background: url('../img/rodri.jpeg') no-repeat 0 0;
+	background-position: 0 0;
+}
+
+.tl-six:hover span{
+	margin-left: 220px;
 }
 
 .footer{
